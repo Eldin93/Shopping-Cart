@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: #eef0f4;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #2cab1b;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+img {
+  width: 150px;
+  margin: 0 auto;
+}
+
+input {
+  color: black;
+  background-color: #dce1eb;
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin: 10px 0;
+}
+
+button {
+  color: #fdfdfd;
+  background-color: #44b535;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 0.5em;
+  border-radius: 8px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #33bd20;
+}
+
+#clear-button {
+  background-color: #bf1d43;
+}
+
+#clear-button:hover {
+  background-color: #d6224c;
+}
+
+#shopping-list {
+  text-align: center;
+  color: #fdfdfd;
+  font-weight: 900;
+  padding: 0;
+  border: 0;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em 0.3em;
+}
+
+#shopping-list li {
+  font-size: 25px;
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+  /*margin: 0.5em 0.1em;*/
+  background-color: #ffffff;
+  color: #248c16;
+  border-radius: 8px;
+}
+
+#shopping-list li:hover {
+  background-color: #ffecc7;
+  cursor: pointer;
+}
